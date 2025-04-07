@@ -1,0 +1,241 @@
+.has-submenu > .list-categories-inner {
+    display: none; /* Show when parent is hovered */
+}
+.has-submenu:hover > .list-categories-inner {
+    display: block; /* Show when parent is hovered */
+}
+
+.tf-list-categories .list-categories-inner {
+    left: 0;
+    border-radius: 0;
+    position: absolute;
+    background-color: var(--white);
+    min-width: 300px;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-align: left;
+    box-shadow: none;
+    top: 100%;
+    margin-top: 10px;
+    color: var(--main);
+    pointer-events: none;
+    padding: 0;
+}
+.sub-cat .categories-item{
+    padding: 12px 15px!important;
+}
+.sub-cat{
+    border: 1px solid #e9e9e9;
+}
+
+#shopCategories .facet-title{
+    padding: 10px;
+    border-left: 1px solid rgb(0, 0, 0);
+}
+#shopCategories.canvas-categories .wd-facet-categories .facet-body {
+    margin-top: 0;
+    padding: 0 0 0 15px;
+}
+.btn-style-2 {
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding: 14px 15px;
+    border-radius: 999px;
+    background-color: var(--main);
+    color: var(--white);
+    letter-spacing: 0.1em;
+    border: 0;
+}
+.btn-style-3 {
+    display: block;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 15px;
+    border-radius: 999px;
+    background-color: var(--primary);
+    color: var(--white);
+    letter-spacing: 0.1em;
+}
+/* form popup */
+.form-select-business select {
+    padding-right: 40px;
+    padding-left: 14px;
+    border: 2px solid var(--line);
+    outline: 0;
+    box-shadow: none;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 8px;
+    padding: 9px 16px;
+    width: 100%;
+    background: var(--white);
+    color: var(--main);
+    font-weight: 400;
+    transition: all 0.3s ease;
+    appearance: none; /* Removes default styling */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+/* Focus & Hover Effects */
+.form-select-business select:focus {
+    border-color: var(--main);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-select-business select:hover {
+    border-color: var(--main);
+}
+
+.form-select-business select option{
+    text-transform: capitalize;
+}
+.my-capitalize{
+    text-transform: capitalize;
+}
+.slider-pet-store .wrap-slider .content-slider{
+    display: none;
+}
+
+/* form pop-up to select near-by stores */
+.selectable-store {
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    width: 150px;
+}
+
+.selectable-store.selected {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+}
+
+.modal-shopping-cart .tf-mini-cart-tool .tf-mini-cart-tool-btn{
+    justify-content:left;
+}
+
+.shubham-category .my-row{
+    padding:30px 15px;
+    align-items: center;
+    /* background-color: #f7d990; */
+    background-color: #f7d990;
+    margin:5px 0;
+    border-radius: 10px;
+    /* border: 2px solid gray; */
+}
+.shubham-category .my-row.collapsed{
+    padding:30px 15px;
+    align-items: center;
+    background-color: #ece2ca;
+}
+
+.canvas-body.shubham-category{
+    background-color: transparent;
+}
+
+.shubham-category .sub-row{
+    padding:10px 15px;
+    align-items: center;
+    background-color: #dccfec;
+    /* border: 2px solid gray; */
+    margin: 0px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.shubham-category .row .col-md-3 {
+    position: relative; /* Ensures child absolute positioning works */
+}
+
+.shubham-category .row ul{
+    position: relative;
+    z-index: 1000; /* Optional: Adjust stacking if needed */
+}
+
+.shubham-category .row img.avt{
+    width: 50px;
+}
+
+.shubham-category .sub-row.collapsed{
+    background-color: #f3a49a;
+}
+
+.shubham-category .card-product .card-product-wrapper:hover .product-img .img-product {
+    opacity: 1;
+}
+
+.shubham-category .my-col{
+    padding-right:0px;
+}
+
+.card-product .quantity-selector {
+    height: 35px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.card-product .quantity-selector button,
+.card-product .quantity-selector input {
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+}
+
+.card-product .quantity-selector button {
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.card-product .quantity-selector button:hover {
+    background-color: #fff;
+}
+
+.card-product .quantity-selector input {
+    width: 80px;
+}
+
+/* for cart */
+#shoppingCart .quantity-selector {
+    height: 35px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+#shoppingCart .quantity-selector button,
+#shoppingCart .quantity-selector input {
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+}
+
+#shoppingCart .quantity-selector button {
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+#shoppingCart .quantity-selector button:hover {
+    background-color: #fff;
+}
+
+#shoppingCart .quantity-selector input {
+    width: 50px;
+    background-color: #f7d990;
+}
+/* end for cart */
+
+@media only screen and (max-width: 991px) {
+.tf-toolbar-bottom {
+    display: flex!important;
+  }
+}
